@@ -1,4 +1,4 @@
-// Copyright 2023 Intel Corporation. All Rights Reserved.
+// Copyright 2023 RealSense, Inc. All Rights Reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@
 #include <librealsense2/rsutil.h>
 #include "constants.h"
 #include <map>
-#include <rclcpp/rclcpp.hpp>
+#include "ros_node_base.h"
 #include <ros_utils.h>
 #include <sensor_params.h>
 #include <profile_manager.h>
